@@ -1,0 +1,180 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OtherPage.master.cs" Inherits="OtherPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="D’Ultimate Life Sciences, we are dedicated to harnessing the power of Ayurveda, India’s ancient system of holistic wellness, to create high-quality, natural products that promote health and well-being. " />
+<meta name="keywords" content="" />
+<link rel="icon" type="image/png" href="img/flaticon.png">
+<title>Formula Chai - Bhilwara Rajasthan</title>
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway:300,400,700,800" rel="stylesheet"> 
+
+<!-- CSS FILES -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+<link href="css/zoomslider.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+ <!-- TOP BAR -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-sm-9">
+					<ul class="top-bar-contacts">
+						 <li><i class="fa fa-phone" aria-hidden="true"></i>+91 902-427-9377</li>
+                                 <li><i class="fa fa-phone" aria-hidden="true"></i>+91 931-455-6630</li>
+                                 <li><i class="fa fa-phone" aria-hidden="true"></i>+91 869-030-5654</li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>formulachay@gmail.com</li>
+						<li class="skype"><i class="fa fa-skype" aria-hidden="true"></i>mrcoffee</li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-3 top-social-wrap">
+					<ul class="top-social">
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- TOP BAR END -->
+	<!-- HEADER -->
+	<div class="header-wrap">
+		<header class="top-nav inner-page" data-spy="affix" data-offset-top="34">
+			<div class="container">
+				<div class="row position-relative">
+					<div class="col-lg-2 col-md-2">
+						<a href="Index.aspx" class="small-logo alt"><img src="img/formulalogo.png" style="height:100px;width:100px;" alt="Formula Chai"></a>	
+					</div>
+					<div class="col-lg-10 col-md-10">
+						<nav class="navbar collapse navbar-collapse" id="coffee-menu">
+							<div class="col-lg-10 col-md-10">
+								<ul class="main-menu nav">
+									<li><a href="Index.aspx">Home</a></li>
+									 <li>
+                                        <a href="About.aspx">About</a>
+
+                                    </li>
+									 <li>
+                                        <a href="AboutFormula.aspx">About Formula Chai</a>
+
+                                    </li>
+									 <li>
+                                        <a href="Benefit.aspx">Benefits</a>
+
+                                    </li>
+									<li>
+                                        <a href="Blog.aspx">Blog</a>
+
+                                    </li>
+									
+									<li class="active"><a href="Contact.aspx">Contact</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-2 col-md-12">
+								<div class="top-right">
+									<a href="cart.html" class="cart">
+										<span class="name">Cart</span>
+										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+										<span class="count">0</span>
+									</a>
+									<div class="top-search">
+										<input type="text" placeholder="Search">
+										<a href="#" class="fa fa-search search" aria-hidden="true"></a>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#coffee-menu" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+		     	 	</button>
+				</div>
+			</div>
+		</header>
+	</div>
+	<!-- HEADER END -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   <!-- FOOTER -->
+	<footer class="footer">
+		<div class="top-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-6">
+						<a href="#" class="footer-logo"><img src="img/formulalogo.png" alt="Formula Chai"></a>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="footer-about">
+							<div class="title">About Formula Chai</div>
+							<p>Sed sagittis sodales lobortis. Curabitur in eleifend<br> turpis, id vehicula odio. Donec pulvinar tellus<br> eget magna aliquet ultricies. </p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<ul class="footer-contacts">
+							  <li><i class="fa fa-phone" aria-hidden="true"></i>+91 902-427-9377</li>
+                                 <li><i class="fa fa-phone" aria-hidden="true"></i>+91 931-455-6630</li>
+                                 <li><i class="fa fa-phone" aria-hidden="true"></i>+91 869-030-5654</li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>formulachay@gmail.com</li>
+							<li><i class="fa fa-skype" aria-hidden="true"></i>mrcoffee</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-social">
+							<div class="title">Follow Us</div>
+							<ul class="social">
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+                            <div class="copyrights"><a href="#">Formula Chai</a> 2025 &copy; All Rights reserved <a href="Terms.aspx">Terms of Use</a></div>
+                        </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER END -->
+		
+<!-- JAVASCRIPT FILES -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="../../ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTRSHf8sjMCfK9PHPJxjJkwrCIo5asIzE"></script>	
+<script type="text/javascript" src="js/map-style.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomslider.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/waypoint.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/custom-number.js"></script>
+<script type="text/javascript" src="js/jquery.select2.js"></script>
+<script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+    </form>
+</body>
+</html>
